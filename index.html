@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <html lang="en-US">
+    <title>Mint| Sign Up</title>
+    <link rel="icon" type="image/png" href="images/mint.png" />
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <![endif]-->
+    <meta charset="utf-8">
+    <meta name="keywords" content="google, home, page">
+    <meta name="description" content="google home page design to learn html and css">
+    <meta name ="author" content="Lois Adegbohungbe">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <body>
+         <section>
+        <div id="top">
+            Already have an Intuit account?<br/>
+            <a href="#">I forgot my User ID or Password</a>
+        </div>
+        <a id="sign_in" href="#">Sign In</a>
+        <header>
+            <div id="logo"><img src="images/logo.png" alt="logo"></div>
+            <div id="nav">
+            <span a href="#">mint</a></span>
+            <span a href="#">quickbooks</a></span>
+            <span a href="#">turbotax</a></span>
+            </div>
+        </header>
+        <form name="myForm" onsubmit="return validateForm()">
+            <h2>One Account.</h2>
+            <h2>Everything Intuit.</h2>
+            <p>Create an account for all of Intuits products including Mint. <a href="#">Learn more</a><br/>Already have an account? <a href="#">Sign In</a></p>
+            <label >Email address<br/>
+            <input type="email" name="email">
+            </label>
+            <label>Phone(recommended)<br/>
+            <div style="line-height:0.1"><input type="tel" name="phone">
+            <p style="text-align:left;font-size:11px;">Standard call, messaging or data rates may apply</p></div>
+            </label>
+            <label>Password<br/>
+            <input type="password" name="psw">
+            </label>
+            <p><input class= "submit" type="submit" value="Create Account"></p>
+            <div class = "form_footer">
+                <p><em>By clicking Create Account, you agree to our <a href="#">License Agreement</a>
+                and have read and acknowledge our <a href="#">Privacy Statement</a></em></p>
+            </div>
+            <p class="captcha">Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a> and <a href="#">Terms of Use</a></p>
+        </form>
+        <footer>
+            <ul><li><a href="#">Legal</a></li><li><a href="#">Privacy</a><li><a href="#">Security</a></li></ul>
+            &#169 2019 Intuit, Inc. all rights reserved. Intuit, QuickBooks, QB, TurboTAx, ProConnect and
+            Mint are registered trademarks of Intuit Inc.</br>
+            Terms and conditions, features, support, pricing, and service options subject to change without notice.
+        </footer>
+        </section>
+        <script src="script.js"></script>
+    </body>
+</html>

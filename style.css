@@ -1,0 +1,151 @@
+/*# sourceMappingURL=style.css.map */
+body {
+    margin: 0;
+    padding: 0;
+    background: #ECEEF1;
+    position: relative;
+    font-family: arial, sans-serif;
+}
+section {
+    margin: 18px 0;
+}
+div#top{
+    min-width:200px;
+}
+#top, #sign_in {
+    font-size: 12px;
+}
+#top {
+    margin-left: 996px;
+    line-height: 1.5;
+}
+#sign_in {
+    position: absolute;
+    top: -1px;
+    right: 18px;
+    margin-right: 18px;
+    border: 1px solid black;
+    background-color: #166fc8;
+    color: white; 
+    padding: 10px;
+    border-radius: 4px;
+}
+/* #sign_in::before{
+    content:url(images/secured.png);
+} */
+a {
+    color: #100081a1;
+    text-decoration: none;
+}
+#logo img{ 
+    margin: 25px auto;
+    display: block;
+    width: 135px;
+    height: 70px;
+}
+span::before{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+    margin-left: 5px;
+    content: "";
+    background: url("images/mint.png") no-repeat 0 0;
+    background-size: 100%;
+}
+#nav{
+    text-align: center;
+    font-family: "AvenirNext", "Avenir", Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    color: #685959;
+}
+#nav a{
+    cursor: pointer;
+}
+form{
+    margin: 25px auto;
+    padding: 25px;
+    min-width: 200px;
+    max-width: 334px; 
+    background-color: white;
+    color: #2d2c2c;
+    height: 582px;
+    border: 1px solid gray;
+}
+form h2, form p{
+    text-align: center;
+}
+form p, label{
+    font-size: 14px;
+}
+form p > a{
+    font-size: 13px;
+}
+form h2{
+    line-height: 0.5;
+    font-weight: normal;
+}
+label{
+    line-height: 3.0;
+}
+input{
+    width: 98%;
+}
+input:not(.submit){
+    height: 25px;
+    padding: 5px;
+    border: 1px solid #868c99;
+    border-radius: 3px;
+}
+input:focus{
+    border: 1px solid #100081;
+    box-shadow: 1px black;
+}
+input.submit{
+    height: 40px;
+    color: white;
+    background-color: #0059ff;
+    border-radius: 8px;
+}
+input.submit:hover{
+    cursor: pointer;
+}
+.form_footer{
+    margin: 23px;
+    line-height: 1.5;
+}
+.form_footer p{
+    font-size: 12px;
+    color: #504b4b;
+}
+p.captcha{
+    margin-left: -25px;
+    width: 356px;
+    font-size: 10px;
+    background-color: #e6e6da;
+    padding: 14px;
+    color: #504b4b;
+}
+p.captcha a {
+    font-size: 10px;
+}
+footer, footer a{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    color: #504b4b;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+ul li{
+    display: inline;
+}
+li a {
+    text-decoration: none;
+    padding: 8px;
+}
+li:first-child{
+    padding: 0;
+}
