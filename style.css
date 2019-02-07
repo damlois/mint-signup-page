@@ -16,7 +16,8 @@ div#top{
     font-size: 12px;
 }
 #top {
-    margin-left: 996px;
+    float: right;
+    margin-right: 80px;
     line-height: 1.5;
 }
 #sign_in {
@@ -37,8 +38,9 @@ a {
     color: #100081a1;
     text-decoration: none;
 }
-#logo img{ 
-    margin: 25px auto;
+#logo img{
+    clear: right;
+    margin: 80px auto 25px;
     display: block;
     width: 135px;
     height: 70px;
